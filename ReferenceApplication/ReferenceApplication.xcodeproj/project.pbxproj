@@ -1,0 +1,1563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AB64C2D1C4FC45400C878CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C2B1C4FC45400C878CE /* Main.storyboard */; };
+		2AB64C321C4FC45400C878CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C301C4FC45400C878CE /* LaunchScreen.storyboard */; };
+		2AB64C3D1C4FC45400C878CE /* ReferenceApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C3C1C4FC45400C878CE /* ReferenceApplicationTests.m */; };
+		2AB64C551C4FD3C600C878CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C301C4FC45400C878CE /* LaunchScreen.storyboard */; };
+		2AB64C571C4FD3C600C878CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C2B1C4FC45400C878CE /* Main.storyboard */; };
+		2AB64C631C4FD3CA00C878CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C301C4FC45400C878CE /* LaunchScreen.storyboard */; };
+		2AB64C651C4FD3CA00C878CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C2B1C4FC45400C878CE /* Main.storyboard */; };
+		2AB64C771C4FD60D00C878CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C761C4FD60D00C878CE /* AppDelegate.m */; };
+		2AB64C7D1C4FD89B00C878CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C7C1C4FD89B00C878CE /* Assets.xcassets */; };
+		2AB64C8B1C4FDA2300C878CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C8A1C4FDA2300C878CE /* main.m */; };
+		2AB64C8E1C50411600C878CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C761C4FD60D00C878CE /* AppDelegate.m */; };
+		2AB64C8F1C50411700C878CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C761C4FD60D00C878CE /* AppDelegate.m */; };
+		2AB64C901C50411F00C878CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C8A1C4FDA2300C878CE /* main.m */; };
+		2AB64C911C50411F00C878CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB64C8A1C4FDA2300C878CE /* main.m */; };
+		2AB64C921C50412800C878CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C7C1C4FD89B00C878CE /* Assets.xcassets */; };
+		2AB64C931C50412900C878CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB64C7C1C4FD89B00C878CE /* Assets.xcassets */; };
+		2AE385D01C528D58001C8ED4 /* CITUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385CF1C528D58001C8ED4 /* CITUser.m */; };
+		2AE385D11C528D58001C8ED4 /* CITUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385CF1C528D58001C8ED4 /* CITUser.m */; };
+		2AE385D21C528D58001C8ED4 /* CITUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385CF1C528D58001C8ED4 /* CITUser.m */; };
+		2AE385D61C52908F001C8ED4 /* CITBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385D51C52908F001C8ED4 /* CITBaseViewController.m */; };
+		2AE385D71C52908F001C8ED4 /* CITBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385D51C52908F001C8ED4 /* CITBaseViewController.m */; };
+		2AE385D81C52908F001C8ED4 /* CITBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385D51C52908F001C8ED4 /* CITBaseViewController.m */; };
+		2AE385DC1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385DB1C5290C5001C8ED4 /* CITLoginViewController.m */; };
+		2AE385DD1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385DB1C5290C5001C8ED4 /* CITLoginViewController.m */; };
+		2AE385DE1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385DB1C5290C5001C8ED4 /* CITLoginViewController.m */; };
+		2AE385E21C529109001C8ED4 /* CITBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385E11C529109001C8ED4 /* CITBaseManager.m */; };
+		2AE385E31C529109001C8ED4 /* CITBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385E11C529109001C8ED4 /* CITBaseManager.m */; };
+		2AE385E41C529109001C8ED4 /* CITBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385E11C529109001C8ED4 /* CITBaseManager.m */; };
+		2AE385EE1C5291CE001C8ED4 /* CITBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385ED1C5291CE001C8ED4 /* CITBaseView.m */; };
+		2AE385EF1C5291CE001C8ED4 /* CITBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385ED1C5291CE001C8ED4 /* CITBaseView.m */; };
+		2AE385F01C5291CE001C8ED4 /* CITBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385ED1C5291CE001C8ED4 /* CITBaseView.m */; };
+		2AE385F41C5291FD001C8ED4 /* CITLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385F31C5291FD001C8ED4 /* CITLoginView.m */; };
+		2AE385F51C5291FD001C8ED4 /* CITLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385F31C5291FD001C8ED4 /* CITLoginView.m */; };
+		2AE385F61C5291FD001C8ED4 /* CITLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385F31C5291FD001C8ED4 /* CITLoginView.m */; };
+		2AE385FC1C52A10F001C8ED4 /* CITBaseBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385FB1C52A10F001C8ED4 /* CITBaseBO.m */; };
+		2AE385FD1C52A10F001C8ED4 /* CITBaseBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385FB1C52A10F001C8ED4 /* CITBaseBO.m */; };
+		2AE385FE1C52A10F001C8ED4 /* CITBaseBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE385FB1C52A10F001C8ED4 /* CITBaseBO.m */; };
+		2AE386011C52A12D001C8ED4 /* CITUserBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386001C52A12D001C8ED4 /* CITUserBO.m */; };
+		2AE386021C52A12D001C8ED4 /* CITUserBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386001C52A12D001C8ED4 /* CITUserBO.m */; };
+		2AE386031C52A12D001C8ED4 /* CITUserBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386001C52A12D001C8ED4 /* CITUserBO.m */; };
+		2AE3860A1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386061C52A19A001C8ED4 /* CITHTTPSessionProvider.m */; };
+		2AE3860B1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386061C52A19A001C8ED4 /* CITHTTPSessionProvider.m */; };
+		2AE3860C1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386061C52A19A001C8ED4 /* CITHTTPSessionProvider.m */; };
+		2AE3860D1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386091C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m */; };
+		2AE3860E1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386091C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m */; };
+		2AE3860F1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386091C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m */; };
+		2AE3861C1C52A365001C8ED4 /* CITLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3861B1C52A365001C8ED4 /* CITLoginManager.m */; };
+		2AE3861D1C52A365001C8ED4 /* CITLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3861B1C52A365001C8ED4 /* CITLoginManager.m */; };
+		2AE3861E1C52A365001C8ED4 /* CITLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3861B1C52A365001C8ED4 /* CITLoginManager.m */; };
+		2AE386211C540C36001C8ED4 /* CITTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386201C540C36001C8ED4 /* CITTextField.m */; };
+		2AE386221C540C36001C8ED4 /* CITTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386201C540C36001C8ED4 /* CITTextField.m */; };
+		2AE386231C540C36001C8ED4 /* CITTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386201C540C36001C8ED4 /* CITTextField.m */; };
+		2AE386351C54F12C001C8ED4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE386341C54F12C001C8ED4 /* Localizable.strings */; };
+		2AE386361C54F12C001C8ED4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE386341C54F12C001C8ED4 /* Localizable.strings */; };
+		2AE386371C54F12C001C8ED4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AE386341C54F12C001C8ED4 /* Localizable.strings */; };
+		2AE3863D1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3863C1C54F4A6001C8ED4 /* CITWelcomeViewController.m */; };
+		2AE3863E1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3863C1C54F4A6001C8ED4 /* CITWelcomeViewController.m */; };
+		2AE3863F1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3863C1C54F4A6001C8ED4 /* CITWelcomeViewController.m */; };
+		2AE386431C54F577001C8ED4 /* CITWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386421C54F577001C8ED4 /* CITWelcomeView.m */; };
+		2AE386441C54F577001C8ED4 /* CITWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386421C54F577001C8ED4 /* CITWelcomeView.m */; };
+		2AE386451C54F577001C8ED4 /* CITWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386421C54F577001C8ED4 /* CITWelcomeView.m */; };
+		2AE3865A1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386591C54FE29001C8ED4 /* CITCustomStoryboardSegue.m */; };
+		2AE3865B1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386591C54FE29001C8ED4 /* CITCustomStoryboardSegue.m */; };
+		2AE3865C1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE386591C54FE29001C8ED4 /* CITCustomStoryboardSegue.m */; };
+		2AFE32BA1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE32B91C6B503A00F4B4E8 /* StyleSettings.plist */; };
+		2AFE32BB1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE32B91C6B503A00F4B4E8 /* StyleSettings.plist */; };
+		2AFE32BC1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE32B91C6B503A00F4B4E8 /* StyleSettings.plist */; };
+		2B6D6E561C7C940D002DAA16 /* CITDatabaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E551C7C940D002DAA16 /* CITDatabaseView.m */; };
+		2B6D6E571C7C940D002DAA16 /* CITDatabaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E551C7C940D002DAA16 /* CITDatabaseView.m */; };
+		2B6D6E581C7C940D002DAA16 /* CITDatabaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E551C7C940D002DAA16 /* CITDatabaseView.m */; };
+		2B6D6E5B1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5A1C7C9583002DAA16 /* CITDatabaseViewController.m */; };
+		2B6D6E5C1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5A1C7C9583002DAA16 /* CITDatabaseViewController.m */; };
+		2B6D6E5D1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5A1C7C9583002DAA16 /* CITDatabaseViewController.m */; };
+		2B6D6E601C7C9611002DAA16 /* CITClientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5F1C7C9611002DAA16 /* CITClientTableViewController.m */; };
+		2B6D6E611C7C9611002DAA16 /* CITClientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5F1C7C9611002DAA16 /* CITClientTableViewController.m */; };
+		2B6D6E621C7C9611002DAA16 /* CITClientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E5F1C7C9611002DAA16 /* CITClientTableViewController.m */; };
+		2B6D6E671C7C9831002DAA16 /* CITClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E661C7C9831002DAA16 /* CITClient.m */; };
+		2B6D6E681C7C9831002DAA16 /* CITClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E661C7C9831002DAA16 /* CITClient.m */; };
+		2B6D6E691C7C9831002DAA16 /* CITClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6E661C7C9831002DAA16 /* CITClient.m */; };
+		2B6D6EBC1C7CC386002DAA16 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAD1C7CC386002DAA16 /* NSArray+Additions.m */; };
+		2B6D6EBD1C7CC386002DAA16 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAD1C7CC386002DAA16 /* NSArray+Additions.m */; };
+		2B6D6EBE1C7CC386002DAA16 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAD1C7CC386002DAA16 /* NSArray+Additions.m */; };
+		2B6D6EBF1C7CC386002DAA16 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAF1C7CC386002DAA16 /* NSData+Additions.m */; };
+		2B6D6EC01C7CC386002DAA16 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAF1C7CC386002DAA16 /* NSData+Additions.m */; };
+		2B6D6EC11C7CC386002DAA16 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EAF1C7CC386002DAA16 /* NSData+Additions.m */; };
+		2B6D6EC21C7CC386002DAA16 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB11C7CC386002DAA16 /* NSString+Additions.m */; };
+		2B6D6EC31C7CC386002DAA16 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB11C7CC386002DAA16 /* NSString+Additions.m */; };
+		2B6D6EC41C7CC386002DAA16 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB11C7CC386002DAA16 /* NSString+Additions.m */; };
+		2B6D6EC51C7CC386002DAA16 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB31C7CC386002DAA16 /* UIButton+Additions.m */; };
+		2B6D6EC61C7CC386002DAA16 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB31C7CC386002DAA16 /* UIButton+Additions.m */; };
+		2B6D6EC71C7CC386002DAA16 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB31C7CC386002DAA16 /* UIButton+Additions.m */; };
+		2B6D6EC81C7CC386002DAA16 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB51C7CC386002DAA16 /* UIColor+Additions.m */; };
+		2B6D6EC91C7CC386002DAA16 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB51C7CC386002DAA16 /* UIColor+Additions.m */; };
+		2B6D6ECA1C7CC386002DAA16 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB51C7CC386002DAA16 /* UIColor+Additions.m */; };
+		2B6D6ECB1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB71C7CC386002DAA16 /* UIDevice+Additions.m */; };
+		2B6D6ECC1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB71C7CC386002DAA16 /* UIDevice+Additions.m */; };
+		2B6D6ECD1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB71C7CC386002DAA16 /* UIDevice+Additions.m */; };
+		2B6D6ECE1C7CC386002DAA16 /* UILabel+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB91C7CC386002DAA16 /* UILabel+Additions.m */; };
+		2B6D6ECF1C7CC386002DAA16 /* UILabel+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB91C7CC386002DAA16 /* UILabel+Additions.m */; };
+		2B6D6ED01C7CC386002DAA16 /* UILabel+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EB91C7CC386002DAA16 /* UILabel+Additions.m */; };
+		2B6D6ED11C7CC386002DAA16 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EBB1C7CC386002DAA16 /* UIView+Animations.m */; };
+		2B6D6ED21C7CC386002DAA16 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EBB1C7CC386002DAA16 /* UIView+Animations.m */; };
+		2B6D6ED31C7CC386002DAA16 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EBB1C7CC386002DAA16 /* UIView+Animations.m */; };
+		2B6D6EFC1C7CCA35002DAA16 /* CITDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF01C7CCA35002DAA16 /* CITDataAccess.m */; };
+		2B6D6EFD1C7CCA35002DAA16 /* CITDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF01C7CCA35002DAA16 /* CITDataAccess.m */; };
+		2B6D6EFE1C7CCA35002DAA16 /* CITDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF01C7CCA35002DAA16 /* CITDataAccess.m */; };
+		2B6D6EFF1C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF31C7CCA35002DAA16 /* CITDataAccess+Client.m */; };
+		2B6D6F001C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF31C7CCA35002DAA16 /* CITDataAccess+Client.m */; };
+		2B6D6F011C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF31C7CCA35002DAA16 /* CITDataAccess+Client.m */; };
+		2B6D6F021C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF51C7CCA35002DAA16 /* CITDatabaseProvider.m */; };
+		2B6D6F031C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF51C7CCA35002DAA16 /* CITDatabaseProvider.m */; };
+		2B6D6F041C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF51C7CCA35002DAA16 /* CITDatabaseProvider.m */; };
+		2B6D6F051C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF81C7CCA35002DAA16 /* CITDatabaseQueue.m */; };
+		2B6D6F061C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF81C7CCA35002DAA16 /* CITDatabaseQueue.m */; };
+		2B6D6F071C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EF81C7CCA35002DAA16 /* CITDatabaseQueue.m */; };
+		2B6D6F081C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EFB1C7CCA35002DAA16 /* CITDatabaseSchema.m */; };
+		2B6D6F091C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EFB1C7CCA35002DAA16 /* CITDatabaseSchema.m */; };
+		2B6D6F0A1C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6EFB1C7CCA35002DAA16 /* CITDatabaseSchema.m */; };
+		2B6D6F131C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F121C7CE2D1002DAA16 /* CITDatabaseExampleManager.m */; };
+		2B6D6F141C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F121C7CE2D1002DAA16 /* CITDatabaseExampleManager.m */; };
+		2B6D6F151C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F121C7CE2D1002DAA16 /* CITDatabaseExampleManager.m */; };
+		2B6D6F1E1C7CE67F002DAA16 /* CITClientBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F1D1C7CE67F002DAA16 /* CITClientBO.m */; };
+		2B6D6F1F1C7CE67F002DAA16 /* CITClientBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F1D1C7CE67F002DAA16 /* CITClientBO.m */; };
+		2B6D6F201C7CE67F002DAA16 /* CITClientBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F1D1C7CE67F002DAA16 /* CITClientBO.m */; };
+		2B6D6F241C7CF7E1002DAA16 /* CITKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F231C7CF7E1002DAA16 /* CITKeychain.m */; };
+		2B6D6F251C7CF7E1002DAA16 /* CITKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F231C7CF7E1002DAA16 /* CITKeychain.m */; };
+		2B6D6F261C7CF7E1002DAA16 /* CITKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D6F231C7CF7E1002DAA16 /* CITKeychain.m */; };
+		2BDB630B1CC7F082006E1443 /* google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630A1CC7F082006E1443 /* google.com.cer */; };
+		2BDB630C1CC7F082006E1443 /* google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630A1CC7F082006E1443 /* google.com.cer */; };
+		2BDB630D1CC7F082006E1443 /* google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630A1CC7F082006E1443 /* google.com.cer */; };
+		2BDB630F1CC7F0A7006E1443 /* parse.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630E1CC7F0A7006E1443 /* parse.com.cer */; };
+		2BDB63101CC7F0A7006E1443 /* parse.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630E1CC7F0A7006E1443 /* parse.com.cer */; };
+		2BDB63111CC7F0A7006E1443 /* parse.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB630E1CC7F0A7006E1443 /* parse.com.cer */; };
+		3B6B442C20B0677EA88078AD /* libPods-ReferenceApplicationStage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3583235171AF1500847E95 /* libPods-ReferenceApplicationStage.a */; };
+		604150FE96976131C4673AF2 /* libPods-ReferenceApplicationDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2F3A5B640B9BB559BC057E /* libPods-ReferenceApplicationDev.a */; };
+		C0D1B51010DD6D7929DCC8C1 /* libPods-ReferenceApplicationProd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D06F6353BA558B3C9E186677 /* libPods-ReferenceApplicationProd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AB64C391C4FC45400C878CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB64C171C4FC45400C878CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB64C1E1C4FC45400C878CE;
+			remoteInfo = ReferenceApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB64C1F1C4FC45400C878CE /* ReferenceApplicationProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReferenceApplicationProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB64C2C1C4FC45400C878CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB64C311C4FC45400C878CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB64C381C4FC45400C878CE /* ReferenceApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReferenceApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB64C3C1C4FC45400C878CE /* ReferenceApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReferenceApplicationTests.m; sourceTree = "<group>"; };
+		2AB64C3E1C4FC45400C878CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB64C5B1C4FD3C600C878CE /* ReferenceApplicationDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReferenceApplicationDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB64C691C4FD3CA00C878CE /* ReferenceApplicationStage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReferenceApplicationStage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB64C751C4FD60D00C878CE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AB64C761C4FD60D00C878CE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AB64C7C1C4FD89B00C878CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB64C801C4FD90800C878CE /* ReferenceApplicationDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReferenceApplicationDev-Info.plist"; path = "Supporting Files/ReferenceApplicationDev-Info.plist"; sourceTree = "<group>"; };
+		2AB64C811C4FD90800C878CE /* ReferenceApplicationProd-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReferenceApplicationProd-Info.plist"; path = "Supporting Files/ReferenceApplicationProd-Info.plist"; sourceTree = "<group>"; };
+		2AB64C821C4FD90800C878CE /* ReferenceApplicationStage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReferenceApplicationStage-Info.plist"; path = "Supporting Files/ReferenceApplicationStage-Info.plist"; sourceTree = "<group>"; };
+		2AB64C8A1C4FDA2300C878CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AB64CB61C5189B400C878CE /* CITLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITLogging.h; sourceTree = "<group>"; };
+		2AB64CB81C518FAF00C878CE /* ReferenceApplication-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReferenceApplication-PrefixHeader.pch"; path = "Supporting Files/ReferenceApplication-PrefixHeader.pch"; sourceTree = "<group>"; };
+		2AE385CE1C528D58001C8ED4 /* CITUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITUser.h; sourceTree = "<group>"; };
+		2AE385CF1C528D58001C8ED4 /* CITUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITUser.m; sourceTree = "<group>"; };
+		2AE385D41C52908F001C8ED4 /* CITBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBaseViewController.h; sourceTree = "<group>"; };
+		2AE385D51C52908F001C8ED4 /* CITBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBaseViewController.m; sourceTree = "<group>"; };
+		2AE385DA1C5290C5001C8ED4 /* CITLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITLoginViewController.h; sourceTree = "<group>"; };
+		2AE385DB1C5290C5001C8ED4 /* CITLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITLoginViewController.m; sourceTree = "<group>"; };
+		2AE385E01C529109001C8ED4 /* CITBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBaseManager.h; sourceTree = "<group>"; };
+		2AE385E11C529109001C8ED4 /* CITBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBaseManager.m; sourceTree = "<group>"; };
+		2AE385EC1C5291CE001C8ED4 /* CITBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBaseView.h; sourceTree = "<group>"; };
+		2AE385ED1C5291CE001C8ED4 /* CITBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBaseView.m; sourceTree = "<group>"; };
+		2AE385F21C5291FD001C8ED4 /* CITLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITLoginView.h; sourceTree = "<group>"; };
+		2AE385F31C5291FD001C8ED4 /* CITLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITLoginView.m; sourceTree = "<group>"; };
+		2AE385FA1C52A10F001C8ED4 /* CITBaseBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBaseBO.h; sourceTree = "<group>"; };
+		2AE385FB1C52A10F001C8ED4 /* CITBaseBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBaseBO.m; sourceTree = "<group>"; };
+		2AE385FF1C52A12D001C8ED4 /* CITUserBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITUserBO.h; sourceTree = "<group>"; };
+		2AE386001C52A12D001C8ED4 /* CITUserBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITUserBO.m; sourceTree = "<group>"; };
+		2AE386051C52A19A001C8ED4 /* CITHTTPSessionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITHTTPSessionProvider.h; sourceTree = "<group>"; };
+		2AE386061C52A19A001C8ED4 /* CITHTTPSessionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITHTTPSessionProvider.m; sourceTree = "<group>"; };
+		2AE386081C52A19A001C8ED4 /* CITHTTPSessionProvider+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CITHTTPSessionProvider+User.h"; sourceTree = "<group>"; };
+		2AE386091C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CITHTTPSessionProvider+User.m"; sourceTree = "<group>"; };
+		2AE3861A1C52A365001C8ED4 /* CITLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITLoginManager.h; sourceTree = "<group>"; };
+		2AE3861B1C52A365001C8ED4 /* CITLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITLoginManager.m; sourceTree = "<group>"; };
+		2AE3861F1C540C36001C8ED4 /* CITTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITTextField.h; sourceTree = "<group>"; };
+		2AE386201C540C36001C8ED4 /* CITTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITTextField.m; sourceTree = "<group>"; };
+		2AE386341C54F12C001C8ED4 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2AE386391C54F252001C8ED4 /* CITConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITConstants.h; sourceTree = "<group>"; };
+		2AE3863B1C54F4A6001C8ED4 /* CITWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITWelcomeViewController.h; sourceTree = "<group>"; };
+		2AE3863C1C54F4A6001C8ED4 /* CITWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITWelcomeViewController.m; sourceTree = "<group>"; };
+		2AE386411C54F577001C8ED4 /* CITWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITWelcomeView.h; sourceTree = "<group>"; };
+		2AE386421C54F577001C8ED4 /* CITWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITWelcomeView.m; sourceTree = "<group>"; };
+		2AE386581C54FE29001C8ED4 /* CITCustomStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITCustomStoryboardSegue.h; sourceTree = "<group>"; };
+		2AE386591C54FE29001C8ED4 /* CITCustomStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITCustomStoryboardSegue.m; sourceTree = "<group>"; };
+		2AFE32B91C6B503A00F4B4E8 /* StyleSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StyleSettings.plist; sourceTree = "<group>"; };
+		2B2B29F21C87495B00C88629 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2B2B29F41C8749BA00C88629 /* libPods-ReferenceApplicationProd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ReferenceApplicationProd.a"; path = "Pods/../build/Debug-iphoneos/libPods-ReferenceApplicationProd.a"; sourceTree = "<group>"; };
+		2B6D6E541C7C940D002DAA16 /* CITDatabaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITDatabaseView.h; path = Database/CITDatabaseView.h; sourceTree = "<group>"; };
+		2B6D6E551C7C940D002DAA16 /* CITDatabaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITDatabaseView.m; path = Database/CITDatabaseView.m; sourceTree = "<group>"; };
+		2B6D6E591C7C9583002DAA16 /* CITDatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITDatabaseViewController.h; path = Database/CITDatabaseViewController.h; sourceTree = "<group>"; };
+		2B6D6E5A1C7C9583002DAA16 /* CITDatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITDatabaseViewController.m; path = Database/CITDatabaseViewController.m; sourceTree = "<group>"; };
+		2B6D6E5E1C7C9611002DAA16 /* CITClientTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITClientTableViewController.h; path = Database/Clients/CITClientTableViewController.h; sourceTree = "<group>"; };
+		2B6D6E5F1C7C9611002DAA16 /* CITClientTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITClientTableViewController.m; path = Database/Clients/CITClientTableViewController.m; sourceTree = "<group>"; };
+		2B6D6E651C7C9831002DAA16 /* CITClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITClient.h; path = Client/CITClient.h; sourceTree = "<group>"; };
+		2B6D6E661C7C9831002DAA16 /* CITClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITClient.m; path = Client/CITClient.m; sourceTree = "<group>"; };
+		2B6D6EAC1C7CC386002DAA16 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Additions.h"; path = "Categories/NSArray+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EAD1C7CC386002DAA16 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Additions.m"; path = "Categories/NSArray+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EAE1C7CC386002DAA16 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "Categories/NSData+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EAF1C7CC386002DAA16 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "Categories/NSData+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EB01C7CC386002DAA16 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "Categories/NSString+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EB11C7CC386002DAA16 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "Categories/NSString+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EB21C7CC386002DAA16 /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Additions.h"; path = "Categories/UIButton+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EB31C7CC386002DAA16 /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Additions.m"; path = "Categories/UIButton+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EB41C7CC386002DAA16 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "Categories/UIColor+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EB51C7CC386002DAA16 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Additions.m"; path = "Categories/UIColor+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EB61C7CC386002DAA16 /* UIDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Additions.h"; path = "Categories/UIDevice+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EB71C7CC386002DAA16 /* UIDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Additions.m"; path = "Categories/UIDevice+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EB81C7CC386002DAA16 /* UILabel+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Additions.h"; path = "Categories/UILabel+Additions.h"; sourceTree = "<group>"; };
+		2B6D6EB91C7CC386002DAA16 /* UILabel+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Additions.m"; path = "Categories/UILabel+Additions.m"; sourceTree = "<group>"; };
+		2B6D6EBA1C7CC386002DAA16 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animations.h"; path = "Categories/UIView+Animations.h"; sourceTree = "<group>"; };
+		2B6D6EBB1C7CC386002DAA16 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animations.m"; path = "Categories/UIView+Animations.m"; sourceTree = "<group>"; };
+		2B6D6EEF1C7CCA35002DAA16 /* CITDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDataAccess.h; sourceTree = "<group>"; };
+		2B6D6EF01C7CCA35002DAA16 /* CITDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDataAccess.m; sourceTree = "<group>"; };
+		2B6D6EF21C7CCA35002DAA16 /* CITDataAccess+Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CITDataAccess+Client.h"; sourceTree = "<group>"; };
+		2B6D6EF31C7CCA35002DAA16 /* CITDataAccess+Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CITDataAccess+Client.m"; sourceTree = "<group>"; };
+		2B6D6EF41C7CCA35002DAA16 /* CITDatabaseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDatabaseProvider.h; sourceTree = "<group>"; };
+		2B6D6EF51C7CCA35002DAA16 /* CITDatabaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDatabaseProvider.m; sourceTree = "<group>"; };
+		2B6D6EF71C7CCA35002DAA16 /* CITDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDatabaseQueue.h; sourceTree = "<group>"; };
+		2B6D6EF81C7CCA35002DAA16 /* CITDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDatabaseQueue.m; sourceTree = "<group>"; };
+		2B6D6EFA1C7CCA35002DAA16 /* CITDatabaseSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDatabaseSchema.h; sourceTree = "<group>"; };
+		2B6D6EFB1C7CCA35002DAA16 /* CITDatabaseSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDatabaseSchema.m; sourceTree = "<group>"; };
+		2B6D6F111C7CE2D1002DAA16 /* CITDatabaseExampleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITDatabaseExampleManager.h; path = "ReferenceApplication/Source/Manager/Database Example/CITDatabaseExampleManager.h"; sourceTree = SOURCE_ROOT; };
+		2B6D6F121C7CE2D1002DAA16 /* CITDatabaseExampleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITDatabaseExampleManager.m; path = "ReferenceApplication/Source/Manager/Database Example/CITDatabaseExampleManager.m"; sourceTree = SOURCE_ROOT; };
+		2B6D6F1C1C7CE67F002DAA16 /* CITClientBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITClientBO.h; path = Client/CITClientBO.h; sourceTree = "<group>"; };
+		2B6D6F1D1C7CE67F002DAA16 /* CITClientBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITClientBO.m; path = Client/CITClientBO.m; sourceTree = "<group>"; };
+		2B6D6F221C7CF7E1002DAA16 /* CITKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITKeychain.h; sourceTree = "<group>"; };
+		2B6D6F231C7CF7E1002DAA16 /* CITKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITKeychain.m; sourceTree = "<group>"; };
+		2BDB630A1CC7F082006E1443 /* google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.com.cer; sourceTree = "<group>"; };
+		2BDB630E1CC7F0A7006E1443 /* parse.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = parse.com.cer; sourceTree = "<group>"; };
+		2D2F3A5B640B9BB559BC057E /* libPods-ReferenceApplicationDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReferenceApplicationDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5E8F0B8C0C8CF80424B2F1 /* Pods-ReferenceApplicationStage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationStage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationStage/Pods-ReferenceApplicationStage.debug.xcconfig"; sourceTree = "<group>"; };
+		5C811582FF35952282DEF8B8 /* Pods-ReferenceApplicationProd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationProd.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationProd/Pods-ReferenceApplicationProd.release.xcconfig"; sourceTree = "<group>"; };
+		8E3583235171AF1500847E95 /* libPods-ReferenceApplicationStage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReferenceApplicationStage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5545EE6B31AED7E1691D57 /* Pods-ReferenceApplicationDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationDev/Pods-ReferenceApplicationDev.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB3358B7653EB61D74D775D /* Pods-ReferenceApplicationStage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationStage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationStage/Pods-ReferenceApplicationStage.release.xcconfig"; sourceTree = "<group>"; };
+		C9532F92DD70CB6CED955FDD /* Pods-ReferenceApplicationProd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationProd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationProd/Pods-ReferenceApplicationProd.debug.xcconfig"; sourceTree = "<group>"; };
+		D06F6353BA558B3C9E186677 /* libPods-ReferenceApplicationProd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReferenceApplicationProd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570C27163000F0D8B3159A1 /* Pods-ReferenceApplicationDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferenceApplicationDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReferenceApplicationDev/Pods-ReferenceApplicationDev.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB64C1C1C4FC45400C878CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1B51010DD6D7929DCC8C1 /* libPods-ReferenceApplicationProd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C351C4FC45400C878CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C531C4FD3C600C878CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604150FE96976131C4673AF2 /* libPods-ReferenceApplicationDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C611C4FD3CA00C878CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6B442C20B0677EA88078AD /* libPods-ReferenceApplicationStage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254E4637051CB2DAE4694A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B29F41C8749BA00C88629 /* libPods-ReferenceApplicationProd.a */,
+				2B2B29F21C87495B00C88629 /* libsqlite3.tbd */,
+				2D2F3A5B640B9BB559BC057E /* libPods-ReferenceApplicationDev.a */,
+				D06F6353BA558B3C9E186677 /* libPods-ReferenceApplicationProd.a */,
+				8E3583235171AF1500847E95 /* libPods-ReferenceApplicationStage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AB64C161C4FC45400C878CE = {
+			isa = PBXGroup;
+			children = (
+				2AB64C211C4FC45400C878CE /* ReferenceApplication */,
+				2AB64C3B1C4FC45400C878CE /* ReferenceApplicationTests */,
+				2AB64C201C4FC45400C878CE /* Products */,
+				254E4637051CB2DAE4694A5A /* Frameworks */,
+				63F33024E48E0F4D910E0AD3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB64C201C4FC45400C878CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C1F1C4FC45400C878CE /* ReferenceApplicationProd.app */,
+				2AB64C381C4FC45400C878CE /* ReferenceApplicationTests.xctest */,
+				2AB64C5B1C4FD3C600C878CE /* ReferenceApplicationDev.app */,
+				2AB64C691C4FD3CA00C878CE /* ReferenceApplicationStage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB64C211C4FC45400C878CE /* ReferenceApplication */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C741C4FD54000C878CE /* Resources */,
+				2AB64C6B1C4FD50500C878CE /* Source */,
+				2AB64C221C4FC45400C878CE /* Supporting Files */,
+			);
+			path = ReferenceApplication;
+			sourceTree = "<group>";
+		};
+		2AB64C221C4FC45400C878CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB630A1CC7F082006E1443 /* google.com.cer */,
+				2BDB630E1CC7F0A7006E1443 /* parse.com.cer */,
+				2AFE32B91C6B503A00F4B4E8 /* StyleSettings.plist */,
+				2AB64CB81C518FAF00C878CE /* ReferenceApplication-PrefixHeader.pch */,
+				2AB64C8A1C4FDA2300C878CE /* main.m */,
+				2AB64C801C4FD90800C878CE /* ReferenceApplicationDev-Info.plist */,
+				2AB64C811C4FD90800C878CE /* ReferenceApplicationProd-Info.plist */,
+				2AB64C821C4FD90800C878CE /* ReferenceApplicationStage-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB64C3B1C4FC45400C878CE /* ReferenceApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C3C1C4FC45400C878CE /* ReferenceApplicationTests.m */,
+				2AB64C3E1C4FC45400C878CE /* Info.plist */,
+			);
+			path = ReferenceApplicationTests;
+			sourceTree = "<group>";
+		};
+		2AB64C6B1C4FD50500C878CE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C731C4FD50500C878CE /* View */,
+				2AB64C6D1C4FD50500C878CE /* Controller */,
+				2AB64C6F1C4FD50500C878CE /* Manager */,
+				2AB64C6C1C4FD50500C878CE /* Business */,
+				2AB64C711C4FD50500C878CE /* Provider */,
+				2AB64C701C4FD50500C878CE /* Model */,
+				2AB64C6E1C4FD50500C878CE /* Infrastructure */,
+				2AB64C721C4FD50500C878CE /* Security */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2AB64C6C1C4FD50500C878CE /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385F91C52A10F001C8ED4 /* Base */,
+				2AE385F81C52A0F1001C8ED4 /* User */,
+				2B6D6F161C7CE58D002DAA16 /* Client */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		2AB64C6D1C4FD50500C878CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385D31C52908F001C8ED4 /* Base */,
+				2AE386571C54FE29001C8ED4 /* Flow Control */,
+				2AE385D91C52909D001C8ED4 /* Login */,
+				2AE3863A1C54F484001C8ED4 /* Welcome */,
+				2B6D6E531C7C93CC002DAA16 /* Database */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AB64C6E1C4FD50500C878CE /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C751C4FD60D00C878CE /* AppDelegate.h */,
+				2AB64C761C4FD60D00C878CE /* AppDelegate.m */,
+				2AE386381C54F1F6001C8ED4 /* Utils */,
+				2AE386331C54F12C001C8ED4 /* Localizable Strings */,
+				2AB64CB51C51897C00C878CE /* Logging */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		2AB64C6F1C4FD50500C878CE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385DF1C529109001C8ED4 /* Base */,
+				2AE386191C52A34D001C8ED4 /* Login */,
+				2B6D6F101C7CE1D7002DAA16 /* Database Example */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2AB64C701C4FD50500C878CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6E641C7C97F6002DAA16 /* Client */,
+				2AE385CD1C528D45001C8ED4 /* User */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AB64C711C4FD50500C878CE /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EED1C7CCA35002DAA16 /* Database */,
+				2AE386041C52A19A001C8ED4 /* Service */,
+				2AE386101C52A1AA001C8ED4 /* Third Party */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		2AB64C721C4FD50500C878CE /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6F211C7CF7E1002DAA16 /* Keychain */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		2AB64C731C4FD50500C878CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385F71C52947A001C8ED4 /* UI Components */,
+				2AE385EB1C5291CE001C8ED4 /* Base */,
+				2AE385F11C5291D5001C8ED4 /* Login */,
+				2AE386401C54F545001C8ED4 /* Welcome */,
+				2B6D6E521C7C93BC002DAA16 /* Database */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AB64C741C4FD54000C878CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64CAF1C5186B200C878CE /* Storyboards */,
+				2AB64C7C1C4FD89B00C878CE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AB64CAF1C5186B200C878CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64C2B1C4FC45400C878CE /* Main.storyboard */,
+				2AB64C301C4FC45400C878CE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2AB64CB51C51897C00C878CE /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				2AB64CB61C5189B400C878CE /* CITLogging.h */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		2AE385CD1C528D45001C8ED4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385CE1C528D58001C8ED4 /* CITUser.h */,
+				2AE385CF1C528D58001C8ED4 /* CITUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2AE385D31C52908F001C8ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385D41C52908F001C8ED4 /* CITBaseViewController.h */,
+				2AE385D51C52908F001C8ED4 /* CITBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AE385D91C52909D001C8ED4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385DA1C5290C5001C8ED4 /* CITLoginViewController.h */,
+				2AE385DB1C5290C5001C8ED4 /* CITLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2AE385DF1C529109001C8ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385E01C529109001C8ED4 /* CITBaseManager.h */,
+				2AE385E11C529109001C8ED4 /* CITBaseManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AE385EB1C5291CE001C8ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385EC1C5291CE001C8ED4 /* CITBaseView.h */,
+				2AE385ED1C5291CE001C8ED4 /* CITBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AE385F11C5291D5001C8ED4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385F21C5291FD001C8ED4 /* CITLoginView.h */,
+				2AE385F31C5291FD001C8ED4 /* CITLoginView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2AE385F71C52947A001C8ED4 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3861F1C540C36001C8ED4 /* CITTextField.h */,
+				2AE386201C540C36001C8ED4 /* CITTextField.m */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		2AE385F81C52A0F1001C8ED4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385FF1C52A12D001C8ED4 /* CITUserBO.h */,
+				2AE386001C52A12D001C8ED4 /* CITUserBO.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2AE385F91C52A10F001C8ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AE385FA1C52A10F001C8ED4 /* CITBaseBO.h */,
+				2AE385FB1C52A10F001C8ED4 /* CITBaseBO.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AE386041C52A19A001C8ED4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2AE386051C52A19A001C8ED4 /* CITHTTPSessionProvider.h */,
+				2AE386061C52A19A001C8ED4 /* CITHTTPSessionProvider.m */,
+				2AE386071C52A19A001C8ED4 /* User */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2AE386071C52A19A001C8ED4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2AE386081C52A19A001C8ED4 /* CITHTTPSessionProvider+User.h */,
+				2AE386091C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2AE386101C52A1AA001C8ED4 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		2AE386191C52A34D001C8ED4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3861A1C52A365001C8ED4 /* CITLoginManager.h */,
+				2AE3861B1C52A365001C8ED4 /* CITLoginManager.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2AE386331C54F12C001C8ED4 /* Localizable Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2AE386341C54F12C001C8ED4 /* Localizable.strings */,
+			);
+			path = "Localizable Strings";
+			sourceTree = "<group>";
+		};
+		2AE386381C54F1F6001C8ED4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EAB1C7CC359002DAA16 /* Categories */,
+				2AE386391C54F252001C8ED4 /* CITConstants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2AE3863A1C54F484001C8ED4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3863B1C54F4A6001C8ED4 /* CITWelcomeViewController.h */,
+				2AE3863C1C54F4A6001C8ED4 /* CITWelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		2AE386401C54F545001C8ED4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				2AE386411C54F577001C8ED4 /* CITWelcomeView.h */,
+				2AE386421C54F577001C8ED4 /* CITWelcomeView.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		2AE386571C54FE29001C8ED4 /* Flow Control */ = {
+			isa = PBXGroup;
+			children = (
+				2AE386581C54FE29001C8ED4 /* CITCustomStoryboardSegue.h */,
+				2AE386591C54FE29001C8ED4 /* CITCustomStoryboardSegue.m */,
+			);
+			path = "Flow Control";
+			sourceTree = "<group>";
+		};
+		2B6D6E521C7C93BC002DAA16 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6E541C7C940D002DAA16 /* CITDatabaseView.h */,
+				2B6D6E551C7C940D002DAA16 /* CITDatabaseView.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		2B6D6E531C7C93CC002DAA16 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6E591C7C9583002DAA16 /* CITDatabaseViewController.h */,
+				2B6D6E5A1C7C9583002DAA16 /* CITDatabaseViewController.m */,
+				2B6D6E631C7C9617002DAA16 /* Clients */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		2B6D6E631C7C9617002DAA16 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6E5E1C7C9611002DAA16 /* CITClientTableViewController.h */,
+				2B6D6E5F1C7C9611002DAA16 /* CITClientTableViewController.m */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		2B6D6E641C7C97F6002DAA16 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6E651C7C9831002DAA16 /* CITClient.h */,
+				2B6D6E661C7C9831002DAA16 /* CITClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		2B6D6EAB1C7CC359002DAA16 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EAC1C7CC386002DAA16 /* NSArray+Additions.h */,
+				2B6D6EAD1C7CC386002DAA16 /* NSArray+Additions.m */,
+				2B6D6EAE1C7CC386002DAA16 /* NSData+Additions.h */,
+				2B6D6EAF1C7CC386002DAA16 /* NSData+Additions.m */,
+				2B6D6EB01C7CC386002DAA16 /* NSString+Additions.h */,
+				2B6D6EB11C7CC386002DAA16 /* NSString+Additions.m */,
+				2B6D6EB21C7CC386002DAA16 /* UIButton+Additions.h */,
+				2B6D6EB31C7CC386002DAA16 /* UIButton+Additions.m */,
+				2B6D6EB41C7CC386002DAA16 /* UIColor+Additions.h */,
+				2B6D6EB51C7CC386002DAA16 /* UIColor+Additions.m */,
+				2B6D6EB61C7CC386002DAA16 /* UIDevice+Additions.h */,
+				2B6D6EB71C7CC386002DAA16 /* UIDevice+Additions.m */,
+				2B6D6EB81C7CC386002DAA16 /* UILabel+Additions.h */,
+				2B6D6EB91C7CC386002DAA16 /* UILabel+Additions.m */,
+				2B6D6EBA1C7CC386002DAA16 /* UIView+Animations.h */,
+				2B6D6EBB1C7CC386002DAA16 /* UIView+Animations.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2B6D6EED1C7CCA35002DAA16 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EF41C7CCA35002DAA16 /* CITDatabaseProvider.h */,
+				2B6D6EF51C7CCA35002DAA16 /* CITDatabaseProvider.m */,
+				2B6D6EEE1C7CCA35002DAA16 /* Access */,
+				2B6D6EF61C7CCA35002DAA16 /* Queue */,
+				2B6D6EF91C7CCA35002DAA16 /* Schema */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		2B6D6EEE1C7CCA35002DAA16 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EEF1C7CCA35002DAA16 /* CITDataAccess.h */,
+				2B6D6EF01C7CCA35002DAA16 /* CITDataAccess.m */,
+				2B6D6EF11C7CCA35002DAA16 /* Client */,
+			);
+			path = Access;
+			sourceTree = "<group>";
+		};
+		2B6D6EF11C7CCA35002DAA16 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EF21C7CCA35002DAA16 /* CITDataAccess+Client.h */,
+				2B6D6EF31C7CCA35002DAA16 /* CITDataAccess+Client.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		2B6D6EF61C7CCA35002DAA16 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EF71C7CCA35002DAA16 /* CITDatabaseQueue.h */,
+				2B6D6EF81C7CCA35002DAA16 /* CITDatabaseQueue.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		2B6D6EF91C7CCA35002DAA16 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6EFA1C7CCA35002DAA16 /* CITDatabaseSchema.h */,
+				2B6D6EFB1C7CCA35002DAA16 /* CITDatabaseSchema.m */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		2B6D6F101C7CE1D7002DAA16 /* Database Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6F111C7CE2D1002DAA16 /* CITDatabaseExampleManager.h */,
+				2B6D6F121C7CE2D1002DAA16 /* CITDatabaseExampleManager.m */,
+			);
+			name = "Database Example";
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2B6D6F161C7CE58D002DAA16 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6F1C1C7CE67F002DAA16 /* CITClientBO.h */,
+				2B6D6F1D1C7CE67F002DAA16 /* CITClientBO.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		2B6D6F211C7CF7E1002DAA16 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D6F221C7CF7E1002DAA16 /* CITKeychain.h */,
+				2B6D6F231C7CF7E1002DAA16 /* CITKeychain.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		63F33024E48E0F4D910E0AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA5545EE6B31AED7E1691D57 /* Pods-ReferenceApplicationDev.debug.xcconfig */,
+				D570C27163000F0D8B3159A1 /* Pods-ReferenceApplicationDev.release.xcconfig */,
+				C9532F92DD70CB6CED955FDD /* Pods-ReferenceApplicationProd.debug.xcconfig */,
+				5C811582FF35952282DEF8B8 /* Pods-ReferenceApplicationProd.release.xcconfig */,
+				3D5E8F0B8C0C8CF80424B2F1 /* Pods-ReferenceApplicationStage.debug.xcconfig */,
+				ADB3358B7653EB61D74D775D /* Pods-ReferenceApplicationStage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB64C1E1C4FC45400C878CE /* ReferenceApplicationProd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB64C411C4FC45400C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationProd" */;
+			buildPhases = (
+				D3B281A52D022E0DA1AC98CE /* [CP] Check Pods Manifest.lock */,
+				2AB64C1B1C4FC45400C878CE /* Sources */,
+				2AB64C1C1C4FC45400C878CE /* Frameworks */,
+				2AB64C1D1C4FC45400C878CE /* Resources */,
+				OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */,
+				C07B37F64C958457120DD1FD /* [CP] Embed Pods Frameworks */,
+				2DA35981B222A4538ACE0112 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReferenceApplicationProd;
+			productName = ReferenceApplication;
+			productReference = 2AB64C1F1C4FC45400C878CE /* ReferenceApplicationProd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB64C371C4FC45400C878CE /* ReferenceApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB64C441C4FC45400C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationTests" */;
+			buildPhases = (
+				2AB64C341C4FC45400C878CE /* Sources */,
+				2AB64C351C4FC45400C878CE /* Frameworks */,
+				2AB64C361C4FC45400C878CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB64C3A1C4FC45400C878CE /* PBXTargetDependency */,
+			);
+			name = ReferenceApplicationTests;
+			productName = ReferenceApplicationTests;
+			productReference = 2AB64C381C4FC45400C878CE /* ReferenceApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AB64C4F1C4FD3C600C878CE /* ReferenceApplicationDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB64C581C4FD3C600C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationDev" */;
+			buildPhases = (
+				3EA94E969F436152D4873FA4 /* [CP] Check Pods Manifest.lock */,
+				2AB64C501C4FD3C600C878CE /* Sources */,
+				2AB64C531C4FD3C600C878CE /* Frameworks */,
+				2AB64C541C4FD3C600C878CE /* Resources */,
+				OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */,
+				67D1A9A140CA396C33B3B84D /* [CP] Embed Pods Frameworks */,
+				DE82B4F5F9685CF0837BCDFB /* [CP] Copy Pods Resources */,
+				2BDD2BC51D0881D600B4F1B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReferenceApplicationDev;
+			productName = ReferenceApplication;
+			productReference = 2AB64C5B1C4FD3C600C878CE /* ReferenceApplicationDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB64C5D1C4FD3CA00C878CE /* ReferenceApplicationStage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB64C661C4FD3CA00C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationStage" */;
+			buildPhases = (
+				FBF493AFCDB16F1FD501A20F /* [CP] Check Pods Manifest.lock */,
+				2AB64C5E1C4FD3CA00C878CE /* Sources */,
+				2AB64C611C4FD3CA00C878CE /* Frameworks */,
+				2AB64C621C4FD3CA00C878CE /* Resources */,
+				OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */,
+				BBF52CF50DB1721E0B4776C4 /* [CP] Embed Pods Frameworks */,
+				67A0F477ECE8D73ADBCD80D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReferenceApplicationStage;
+			productName = ReferenceApplication;
+			productReference = 2AB64C691C4FD3CA00C878CE /* ReferenceApplicationStage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB64C171C4FC45400C878CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIT;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "CI&T";
+				TargetAttributes = {
+					2AB64C1E1C4FC45400C878CE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2AB64C371C4FC45400C878CE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2AB64C1E1C4FC45400C878CE;
+					};
+				};
+			};
+			buildConfigurationList = 2AB64C1A1C4FC45400C878CE /* Build configuration list for PBXProject "ReferenceApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB64C161C4FC45400C878CE;
+			productRefGroup = 2AB64C201C4FC45400C878CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB64C4F1C4FD3C600C878CE /* ReferenceApplicationDev */,
+				2AB64C5D1C4FD3CA00C878CE /* ReferenceApplicationStage */,
+				2AB64C1E1C4FC45400C878CE /* ReferenceApplicationProd */,
+				2AB64C371C4FC45400C878CE /* ReferenceApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB64C1D1C4FC45400C878CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDB63111CC7F0A7006E1443 /* parse.com.cer in Resources */,
+				2AE386371C54F12C001C8ED4 /* Localizable.strings in Resources */,
+				2AFE32BC1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */,
+				2BDB630D1CC7F082006E1443 /* google.com.cer in Resources */,
+				2AB64C321C4FC45400C878CE /* LaunchScreen.storyboard in Resources */,
+				2AB64C2D1C4FC45400C878CE /* Main.storyboard in Resources */,
+				2AB64C7D1C4FD89B00C878CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C361C4FC45400C878CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C541C4FD3C600C878CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDB630F1CC7F0A7006E1443 /* parse.com.cer in Resources */,
+				2AE386351C54F12C001C8ED4 /* Localizable.strings in Resources */,
+				2AFE32BA1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */,
+				2BDB630B1CC7F082006E1443 /* google.com.cer in Resources */,
+				2AB64C551C4FD3C600C878CE /* LaunchScreen.storyboard in Resources */,
+				2AB64C571C4FD3C600C878CE /* Main.storyboard in Resources */,
+				2AB64C931C50412900C878CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C621C4FD3CA00C878CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDB63101CC7F0A7006E1443 /* parse.com.cer in Resources */,
+				2AE386361C54F12C001C8ED4 /* Localizable.strings in Resources */,
+				2AFE32BB1C6B503A00F4B4E8 /* StyleSettings.plist in Resources */,
+				2BDB630C1CC7F082006E1443 /* google.com.cer in Resources */,
+				2AB64C631C4FD3CA00C878CE /* LaunchScreen.storyboard in Resources */,
+				2AB64C651C4FD3CA00C878CE /* Main.storyboard in Resources */,
+				2AB64C921C50412800C878CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BDD2BC51D0881D600B4F1B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" c2db02836416e9f6f2083250ac873feb43822503 baff5825047301b7dddb0c409ff6f4ece9a85ef776f692de1f4abf125afc63dc";
+		};
+		2DA35981B222A4538ACE0112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationProd/Pods-ReferenceApplicationProd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA94E969F436152D4873FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67A0F477ECE8D73ADBCD80D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationStage/Pods-ReferenceApplicationStage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D1A9A140CA396C33B3B84D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationDev/Pods-ReferenceApplicationDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF52CF50DB1721E0B4776C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationStage/Pods-ReferenceApplicationStage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07B37F64C958457120DD1FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationProd/Pods-ReferenceApplicationProd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B281A52D022E0DA1AC98CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE82B4F5F9685CF0837BCDFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReferenceApplicationDev/Pods-ReferenceApplicationDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF493AFCDB16F1FD501A20F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Objective-Clean Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "if [[ -z ${SKIP_OBJCLEAN} || ${SKIP_OBJCLEAN} != 1 ]]; then\nif [[ -d \"${LOCAL_APPS_DIR}/Objective-Clean.app\" ]]; then \n\"${LOCAL_APPS_DIR}\"/Objective-Clean.app/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?RA \nelse\necho \"warning: You have to install and set up Objective-Clean to use its features!\" \nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB64C1B1C4FC45400C878CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6D6F041C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */,
+				2B6D6E581C7C940D002DAA16 /* CITDatabaseView.m in Sources */,
+				2AE385D81C52908F001C8ED4 /* CITBaseViewController.m in Sources */,
+				2AE3861E1C52A365001C8ED4 /* CITLoginManager.m in Sources */,
+				2B6D6EC71C7CC386002DAA16 /* UIButton+Additions.m in Sources */,
+				2AE3863F1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */,
+				2B6D6ECA1C7CC386002DAA16 /* UIColor+Additions.m in Sources */,
+				2AE386231C540C36001C8ED4 /* CITTextField.m in Sources */,
+				2B6D6F011C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */,
+				2B6D6F0A1C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */,
+				2AE385E41C529109001C8ED4 /* CITBaseManager.m in Sources */,
+				2AE3860C1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */,
+				2AE386451C54F577001C8ED4 /* CITWelcomeView.m in Sources */,
+				2B6D6E691C7C9831002DAA16 /* CITClient.m in Sources */,
+				2AE3865C1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */,
+				2B6D6EC11C7CC386002DAA16 /* NSData+Additions.m in Sources */,
+				2B6D6E621C7C9611002DAA16 /* CITClientTableViewController.m in Sources */,
+				2AB64C8B1C4FDA2300C878CE /* main.m in Sources */,
+				2B6D6EFE1C7CCA35002DAA16 /* CITDataAccess.m in Sources */,
+				2B6D6EBE1C7CC386002DAA16 /* NSArray+Additions.m in Sources */,
+				2AE385F61C5291FD001C8ED4 /* CITLoginView.m in Sources */,
+				2AB64C771C4FD60D00C878CE /* AppDelegate.m in Sources */,
+				2B6D6ED31C7CC386002DAA16 /* UIView+Animations.m in Sources */,
+				2AE385F01C5291CE001C8ED4 /* CITBaseView.m in Sources */,
+				2B6D6F201C7CE67F002DAA16 /* CITClientBO.m in Sources */,
+				2B6D6E5D1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */,
+				2B6D6ED01C7CC386002DAA16 /* UILabel+Additions.m in Sources */,
+				2AE386031C52A12D001C8ED4 /* CITUserBO.m in Sources */,
+				2B6D6ECD1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */,
+				2B6D6EC41C7CC386002DAA16 /* NSString+Additions.m in Sources */,
+				2AE385FE1C52A10F001C8ED4 /* CITBaseBO.m in Sources */,
+				2AE385DE1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */,
+				2AE3860F1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */,
+				2AE385D21C528D58001C8ED4 /* CITUser.m in Sources */,
+				2B6D6F151C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */,
+				2B6D6F071C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */,
+				2B6D6F261C7CF7E1002DAA16 /* CITKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C341C4FC45400C878CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB64C3D1C4FC45400C878CE /* ReferenceApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C501C4FD3C600C878CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6D6F021C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */,
+				2B6D6E561C7C940D002DAA16 /* CITDatabaseView.m in Sources */,
+				2AE385D61C52908F001C8ED4 /* CITBaseViewController.m in Sources */,
+				2AE3861C1C52A365001C8ED4 /* CITLoginManager.m in Sources */,
+				2B6D6EC51C7CC386002DAA16 /* UIButton+Additions.m in Sources */,
+				2AE3863D1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */,
+				2B6D6EC81C7CC386002DAA16 /* UIColor+Additions.m in Sources */,
+				2AE386211C540C36001C8ED4 /* CITTextField.m in Sources */,
+				2B6D6EFF1C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */,
+				2B6D6F081C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */,
+				2AE385E21C529109001C8ED4 /* CITBaseManager.m in Sources */,
+				2AE3860A1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */,
+				2AE386431C54F577001C8ED4 /* CITWelcomeView.m in Sources */,
+				2B6D6E671C7C9831002DAA16 /* CITClient.m in Sources */,
+				2AE3865A1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */,
+				2B6D6EBF1C7CC386002DAA16 /* NSData+Additions.m in Sources */,
+				2B6D6E601C7C9611002DAA16 /* CITClientTableViewController.m in Sources */,
+				2AB64C911C50411F00C878CE /* main.m in Sources */,
+				2B6D6EFC1C7CCA35002DAA16 /* CITDataAccess.m in Sources */,
+				2B6D6EBC1C7CC386002DAA16 /* NSArray+Additions.m in Sources */,
+				2AE385F41C5291FD001C8ED4 /* CITLoginView.m in Sources */,
+				2AB64C8F1C50411700C878CE /* AppDelegate.m in Sources */,
+				2B6D6ED11C7CC386002DAA16 /* UIView+Animations.m in Sources */,
+				2AE385EE1C5291CE001C8ED4 /* CITBaseView.m in Sources */,
+				2B6D6F1E1C7CE67F002DAA16 /* CITClientBO.m in Sources */,
+				2B6D6E5B1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */,
+				2B6D6ECE1C7CC386002DAA16 /* UILabel+Additions.m in Sources */,
+				2AE386011C52A12D001C8ED4 /* CITUserBO.m in Sources */,
+				2B6D6ECB1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */,
+				2B6D6EC21C7CC386002DAA16 /* NSString+Additions.m in Sources */,
+				2AE385FC1C52A10F001C8ED4 /* CITBaseBO.m in Sources */,
+				2AE385DC1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */,
+				2AE3860D1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */,
+				2AE385D01C528D58001C8ED4 /* CITUser.m in Sources */,
+				2B6D6F131C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */,
+				2B6D6F051C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */,
+				2B6D6F241C7CF7E1002DAA16 /* CITKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB64C5E1C4FD3CA00C878CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6D6F031C7CCA35002DAA16 /* CITDatabaseProvider.m in Sources */,
+				2B6D6E571C7C940D002DAA16 /* CITDatabaseView.m in Sources */,
+				2AE385D71C52908F001C8ED4 /* CITBaseViewController.m in Sources */,
+				2AE3861D1C52A365001C8ED4 /* CITLoginManager.m in Sources */,
+				2B6D6EC61C7CC386002DAA16 /* UIButton+Additions.m in Sources */,
+				2AE3863E1C54F4A6001C8ED4 /* CITWelcomeViewController.m in Sources */,
+				2B6D6EC91C7CC386002DAA16 /* UIColor+Additions.m in Sources */,
+				2AE386221C540C36001C8ED4 /* CITTextField.m in Sources */,
+				2B6D6F001C7CCA35002DAA16 /* CITDataAccess+Client.m in Sources */,
+				2B6D6F091C7CCA35002DAA16 /* CITDatabaseSchema.m in Sources */,
+				2AE385E31C529109001C8ED4 /* CITBaseManager.m in Sources */,
+				2AE3860B1C52A19A001C8ED4 /* CITHTTPSessionProvider.m in Sources */,
+				2AE386441C54F577001C8ED4 /* CITWelcomeView.m in Sources */,
+				2B6D6E681C7C9831002DAA16 /* CITClient.m in Sources */,
+				2AE3865B1C54FE29001C8ED4 /* CITCustomStoryboardSegue.m in Sources */,
+				2B6D6EC01C7CC386002DAA16 /* NSData+Additions.m in Sources */,
+				2B6D6E611C7C9611002DAA16 /* CITClientTableViewController.m in Sources */,
+				2AB64C901C50411F00C878CE /* main.m in Sources */,
+				2B6D6EFD1C7CCA35002DAA16 /* CITDataAccess.m in Sources */,
+				2B6D6EBD1C7CC386002DAA16 /* NSArray+Additions.m in Sources */,
+				2AE385F51C5291FD001C8ED4 /* CITLoginView.m in Sources */,
+				2AB64C8E1C50411600C878CE /* AppDelegate.m in Sources */,
+				2B6D6ED21C7CC386002DAA16 /* UIView+Animations.m in Sources */,
+				2AE385EF1C5291CE001C8ED4 /* CITBaseView.m in Sources */,
+				2B6D6F1F1C7CE67F002DAA16 /* CITClientBO.m in Sources */,
+				2B6D6E5C1C7C9583002DAA16 /* CITDatabaseViewController.m in Sources */,
+				2B6D6ECF1C7CC386002DAA16 /* UILabel+Additions.m in Sources */,
+				2AE386021C52A12D001C8ED4 /* CITUserBO.m in Sources */,
+				2B6D6ECC1C7CC386002DAA16 /* UIDevice+Additions.m in Sources */,
+				2B6D6EC31C7CC386002DAA16 /* NSString+Additions.m in Sources */,
+				2AE385FD1C52A10F001C8ED4 /* CITBaseBO.m in Sources */,
+				2AE385DD1C5290C5001C8ED4 /* CITLoginViewController.m in Sources */,
+				2AE3860E1C52A19A001C8ED4 /* CITHTTPSessionProvider+User.m in Sources */,
+				2AE385D11C528D58001C8ED4 /* CITUser.m in Sources */,
+				2B6D6F141C7CE2D1002DAA16 /* CITDatabaseExampleManager.m in Sources */,
+				2B6D6F061C7CCA35002DAA16 /* CITDatabaseQueue.m in Sources */,
+				2B6D6F251C7CF7E1002DAA16 /* CITKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB64C3A1C4FC45400C878CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB64C1E1C4FC45400C878CE /* ReferenceApplicationProd */;
+			targetProxy = 2AB64C391C4FC45400C878CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AB64C2B1C4FC45400C878CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB64C2C1C4FC45400C878CE /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2AB64C301C4FC45400C878CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB64C311C4FC45400C878CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB64C3F1C4FC45400C878CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplication-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB64C401C4FC45400C878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplication-PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB64C421C4FC45400C878CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9532F92DD70CB6CED955FDD /* Pods-ReferenceApplicationProd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationProd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AB64C431C4FC45400C878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C811582FF35952282DEF8B8 /* Pods-ReferenceApplicationProd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationProd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AB64C451C4FC45400C878CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReferenceApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReferenceApplication.app/ReferenceApplication";
+			};
+			name = Debug;
+		};
+		2AB64C461C4FC45400C878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReferenceApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReferenceApplication.app/ReferenceApplication";
+			};
+			name = Release;
+		};
+		2AB64C591C4FD3C600C878CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5545EE6B31AED7E1691D57 /* Pods-ReferenceApplicationDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication.Dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AB64C5A1C4FD3C600C878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D570C27163000F0D8B3159A1 /* Pods-ReferenceApplicationDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication.Dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AB64C671C4FD3CA00C878CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5E8F0B8C0C8CF80424B2F1 /* Pods-ReferenceApplicationStage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationStage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication.Stage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AB64C681C4FD3CA00C878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB3358B7653EB61D74D775D /* Pods-ReferenceApplicationStage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ReferenceApplication/Supporting Files/ReferenceApplicationStage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ciandt.com.ReferenceApplication.Stage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB64C1A1C4FC45400C878CE /* Build configuration list for PBXProject "ReferenceApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB64C3F1C4FC45400C878CE /* Debug */,
+				2AB64C401C4FC45400C878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB64C411C4FC45400C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationProd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB64C421C4FC45400C878CE /* Debug */,
+				2AB64C431C4FC45400C878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB64C441C4FC45400C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB64C451C4FC45400C878CE /* Debug */,
+				2AB64C461C4FC45400C878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB64C581C4FD3C600C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB64C591C4FD3C600C878CE /* Debug */,
+				2AB64C5A1C4FD3C600C878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB64C661C4FD3CA00C878CE /* Build configuration list for PBXNativeTarget "ReferenceApplicationStage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB64C671C4FD3CA00C878CE /* Debug */,
+				2AB64C681C4FD3CA00C878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB64C171C4FC45400C878CE /* Project object */;
+}

@@ -1,0 +1,25 @@
+platform :ios, '8.4'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+def default_pods
+    pod 'AFNetworking', '~> 3.0'
+    pod 'FMDB/SQLCipher'
+    pod 'SSKeychain'
+    pod 'Reachability'
+    pod 'UIView+Shake'
+    pod 'Fabric'
+    pod 'Crashlytics'
+end
+
+target 'ReferenceApplicationDev' do
+    default_pods
+end
+
+target 'ReferenceApplicationStage' do
+    default_pods
+end
+
+target 'ReferenceApplicationProd' do
+    default_pods
+end

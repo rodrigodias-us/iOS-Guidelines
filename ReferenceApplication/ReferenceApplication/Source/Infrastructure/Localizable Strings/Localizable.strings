@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  ReferenceApplication
+
+  Created by SwatTeam on 1/23/16.
+  Copyright © 2016 CI&T. All rights reserved.
+*/
+
+/* Login Screen */
+"loginScreen.placeholder.user" = "Username";
+"loginScreen.placeholder.password" = "Password";
+"loginScreen.button.login" = "Login";
+
+/*Welcome Screen*/
+"welcomeScreen.label.successful" = "Successful Login!!!";
+"welcomeScreen.label.welcome" = "Welcome, %@!";
+"welcomeScreen.item.database" = "Database example";
+
+/*databaseExample*/
+"databaseExample.placeholder.firstname" = "First Name";
+"databaseExample.placeholder.surname" = "Surname";
+"databaseExample.placeholder.id" = "Identifier";
+"databaseExample.button.add" = "ADD";
+"databaseExample.alert.title" = "OOPS!";
+"databaseExample.alert.fillMessage" = "Please, fill in all fields.";
+"databaseExample.alert.insertMessage" = "Error while insert new Client.";
+"databaseExample.alert.button" = "Ok";
+
+
